@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { AddOneButton } from '../../components/counter/useState/addOneButton';
-import { Container } from '../../components/counter/useState/container';
+import { Container } from '../../components/counter/container';
 import { Counter } from '../../components/counter/useState/counter';
 
 export default function CounterUseState() {

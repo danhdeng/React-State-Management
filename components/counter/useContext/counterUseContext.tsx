@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { CounterContext } from '../../../context/counterContext';
 import { CounterPageProps } from '../../../types/counterPageProps';
+import { Container } from '../container';
 import { AddOneButton } from './addOneButton';
-import { Container } from './container';
 import { Counter } from './counter';
 // const SetCounterContext = createContext<null | React.Dispatch<
 //   React.SetStateAction<number>

@@ -1,5 +1,8 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { UseReducerContext } from '../../../context/useReducerContext';
 
 export const Counter = () => {
-  return <div>Counter</div>;
+  const userReducerContext = useContext(UseReducerContext);
+  if (userReducerContext === null) return <p></p>;
+  return <div>Counter: {userReducerContext.counter}</div>;
 };
