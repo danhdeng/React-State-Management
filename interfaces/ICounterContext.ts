@@ -1,5 +1,6 @@
 import { Dispatch, SetStateAction } from 'react';
 
-export interface FuncProps {
+export interface ICounterContext {
+  counter: number;
   setCounter: Dispatch<SetStateAction<number>>;
 }

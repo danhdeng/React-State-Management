@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { AddOneButton } from '../../components/counter/addOneButton';
+import { AddOneButton } from '../../components/counter/useState/addOneButton';
 import { Container } from '../../components/counter/container';
 import { Counter } from '../../components/counter/counter';
 
