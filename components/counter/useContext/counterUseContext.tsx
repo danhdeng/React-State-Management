@@ -1,16 +1,9 @@
-import React, {
-  createContext,
-  useContext,
-  useState,
-  Dispatch,
-  SetStateAction,
-} from 'react';
-import { ICounterContext } from '../../../interfaces/ICounterContext';
+import React, { useState } from 'react';
+import { CounterContext } from '../../../context/counterContext';
 import { CounterPageProps } from '../../../types/counterPageProps';
 import { AddOneButton } from './addOneButton';
 import { Container } from './container';
 import { Counter } from './counter';
-export const CounterContext = createContext<ICounterContext | null>(null);
 // const SetCounterContext = createContext<null | React.Dispatch<
 //   React.SetStateAction<number>
 // >>(null);
