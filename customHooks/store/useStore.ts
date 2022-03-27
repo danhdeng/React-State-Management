@@ -6,7 +6,7 @@ export const useStore = () => {
   return {
     user,
     cartCount,
-    login: () => setUser('Dan'),
+    login: () => setUser('Welcome to the store: Dan'),
     logout: () => setUser(''),
     addToCart: () => setCartCount(cartCount + 1),
   };
