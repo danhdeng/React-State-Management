@@ -1,6 +1,6 @@
 import React from 'react';
-import { useLogin } from '../../customHooks/store/useLogin';
-import { useLogout } from '../../customHooks/store/useLogout';
+import { useLogin } from '../../../customHooks/ecommerce/useLogin';
+import { useLogout } from '../../../customHooks/ecommerce/useLogout';
 
 export const LoginSection = () => {
   const login = useLogin();

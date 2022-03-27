@@ -1,5 +1,5 @@
 import React from 'react';
-import { useCartCount } from '../../customHooks/store/useCartCount';
+import { useCartCount } from '../../../customHooks/ecommerce/useCartCount';
 
 export const CartCountSection = () => {
   const cartCount = useCartCount();

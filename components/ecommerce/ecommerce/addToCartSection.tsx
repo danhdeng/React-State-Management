@@ -1,5 +1,5 @@
 import React from 'react';
-import { useAddToCart } from '../../../customHooks/store/useAddToCart';
+import { useAddToCart } from '../../../customHooks/ecommerce/useAddToCart';
 
 export const AddToCartSection = () => {
   const addToCart = useAddToCart();
