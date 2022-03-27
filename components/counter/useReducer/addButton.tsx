@@ -4,7 +4,6 @@ import { UseReducerContext } from '../../../context/useReducerContext';
 export const AddButton = () => {
   const counterContext = useContext(UseReducerContext);
   console.log(counterContext);
-  if (counterContext === null) return <p></p>;
   return (
     <div>
       <button

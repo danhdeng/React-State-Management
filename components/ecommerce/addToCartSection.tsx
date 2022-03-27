@@ -1,5 +1,13 @@
 import React from 'react';
+import { useAddToCart } from '../../customHooks/store/useAddToCart';
 
 export const AddToCartSection = () => {
-  return <div></div>;
+  const addToCart = useAddToCart();
+  return (
+    <div>
+      <button type="button" onClick={addToCart}>
+        Add to Cart
+      </button>
+    </div>
+  );
 };

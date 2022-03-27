@@ -4,7 +4,6 @@ import { CounterContext } from '../../../context/counterContext';
 export const AddOneButton = () => {
   const counterContext = useContext(CounterContext);
   console.log(counterContext);
-  if (counterContext === null) return <p></p>;
   return (
     <div>
       <button

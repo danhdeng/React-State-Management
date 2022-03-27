@@ -1,4 +1,6 @@
 import React from 'react';
+import { useUser } from '../../customHooks/store/useUser';
 export const UserSection = () => {
-  return <div>userSetion</div>;
+  const user = useUser();
+  return <div>User: {user}</div>;
 };
